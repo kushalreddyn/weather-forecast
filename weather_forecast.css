@@ -1,0 +1,103 @@
+*
+{
+    margin: 0px;
+}
+.df
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page
+{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.page1
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.bg1
+{
+    object-fit: cover;
+    object-position: 0 30%;
+    position: absolute;
+}
+.content
+{
+    justify-items:flex-end;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height:100%;
+}
+.datainp
+{
+    top: -10%;
+    padding: 1%;
+    width: 30%;
+    height: 35%;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(218, 251, 252), rgba(207, 235, 252, 0.9));
+    border-radius: 40px;
+    border: 0px solid rgb(170, 218, 219);
+    overflow:hidden;
+    justify-content: space-between;
+}
+.logo_text
+{
+    color: rgb(7, 86, 233);
+    font-size: 3vh;
+    font-family: 'kanit';
+    font-weight: bolder;
+}
+.lists
+{
+    color: rgb(7, 50, 131);
+    font-size: 4.5vh;
+    font-family: 'kanit';
+    font-weight: 500;
+}
+#list
+{
+    font-size: 4vh;
+    font-family: 'kanit';
+    border: 0px solid;
+    border-bottom: 3px solid rgb(223, 236, 29);
+    background-color: rgba(240, 248, 255, 0.384);
+    color: rgb(122, 121, 121);
+}
+.buttn
+{
+    width: 23%;
+    height: 14%;
+    background-color: rgb(223, 236, 29);
+    color: rgb(7, 86, 233);
+    border: 0px solid rgb(7, 86, 233);
+    font-family:'kanit';
+    font-size: 2.5vh;
+}
+.buttn:hover
+{
+    color: rgb(223, 236, 29);
+    background-color: rgb(7, 50, 131);  
+    transition: 0.5s;  
+}
+.footer
+{
+    top: -10%;
+    width: 100%;
+    height: 30%;
+}
+
+
+.page2
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(161, 223, 243), rgb(1, 70, 110));
+}
